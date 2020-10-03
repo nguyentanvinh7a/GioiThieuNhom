@@ -7,7 +7,8 @@ body {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	height: 1000px;
+	height: 100%;
+	text-shadow: 1px 2px white;
 }
 
 body {
@@ -19,21 +20,17 @@ body {
 .wrapper_flex{
 	display: flex;
   	background-color: #69E58B;
-	height: 75%;
-	align-self: center;
+	height: 1000px;
 }
 
 /* Global Layout */
-.wrapper {
-	max-width: 100%;
-	width: 100%;
-	margin: auto;
-	padding: auto;
-}
-.sidebar {
+.sidebar__home {
 	width: 35%;
 	background: #37474f;
 	color: #fff;
+	margin-left: 50px;
+	margin-top: 0px;
+	height: 60%;
 }
 .content {
 	width: 50%;
@@ -45,6 +42,7 @@ body {
 	text-align: center;
 	padding: 60px 0;
 	background: #263238;
+	mergin-top: 0px;
 }
 .avatar img {
 	border-radius: 100%;
@@ -115,12 +113,7 @@ body {
 	width: 500px;
 }
 .section__title:hover{
-	border: 1px solid #F9F9F9;
-	border-radius: 5%;
-	border-width: 3px;
-}
-.section{
-	padding-left: 200px;
+	transform:translate(30px);
 }
 #class__button{
 	color: white;
@@ -129,4 +122,26 @@ body {
 }
 #class__button:hover{
 	transform: scale(1.5,1.5);
+}
+.avatar{
+	color: white;
+}
+.wrapper__flex{
+	background-color: #69E58B;
+	height: 1000px;
+}
+.module__meta{
+	color: #263238;
+}
+.section__personal, .section__title{
+	padding-left: 500px;
+}
+#section__title__home{
+	padding-left: 0px;
+}
+.name{
+	text-shadow: 1px 2px blue;
+}
+.job{
+	text-shadow: 1px 2px blue;
 }

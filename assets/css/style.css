@@ -1,6 +1,6 @@
 @font-face{
 	font-family: myFont;
-	src:url("../vendors/font-awesome-4.7.0/fonts/Baloo-Regular.ttf");
+	src:url(../vendors/fontawesome-free-5.15.0-web/webfonts/Baloo-Regular.ttf);
 }
 body {
 	margin: 0;
@@ -118,4 +118,15 @@ body {
 	border: 1px solid #F9F9F9;
 	border-radius: 5%;
 	border-width: 3px;
+}
+.section{
+	padding-left: 200px;
+}
+#class__button{
+	color: white;
+	position: relative;
+	transition: 1s;
+}
+#class__button:hover{
+	transform: scale(1.5,1.5);
 }

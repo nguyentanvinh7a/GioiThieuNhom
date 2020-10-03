@@ -8,8 +8,7 @@
         "start": "node app.js"
     },
     "engines": {
-        "node": "12.18.4",
-        "heroku-postbuild": "npm install express"
+        "node": "12.18.4"
     },
     "dependencies": {
         "accepts": {

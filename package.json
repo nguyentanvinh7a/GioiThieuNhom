@@ -11,6 +11,6 @@
         "node": "12.18.4"
     },
     "dependencies": {
-        "express": "^4.9.8"
+        "express": "4.17.1"
     }
 }

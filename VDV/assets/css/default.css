@@ -91,37 +91,28 @@ body {
 }
 
 #module__content__header {
-    font-size: 32px;
+    font-size: 27px;
+}
+
+.members a {
+    transition: 1s;
+    text-decoration: none;
+}
+
+.members:hover {
+    font-size: 30px;
 }
 
 #nguyen__tan__vinh a {
-    transition: 1s;
-    text-decoration: none;
     color: green;
 }
 
-#nguyen__tan__vinh:hover {
-    font-size: 40px;
-}
-
 #nguyen__ngoc__duy a {
-    transition: 1s;
     color: orange;
-    text-decoration: none;
-}
-
-#nguyen__ngoc__duy:hover {
-    font-size: 40px;
 }
 
 #luu__truong__vu a {
     color: blue;
-    transition: 1s;
-    text-decoration: none;
-}
-
-#luu__truong__vu:hover {
-    font-size: 40px;
 }
 
 .avatar {

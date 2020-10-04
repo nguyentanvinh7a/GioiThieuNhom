@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 80;
+const port = 3000;
 var path = require('path');
 
 app.get('/', function(req, res) {
@@ -10,5 +10,5 @@ app.get('/', function(req, res) {
 app.use(express.static(path.join(__dirname, 'VDV')));
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+    console.log(`App listening at ${port}`)
 });
